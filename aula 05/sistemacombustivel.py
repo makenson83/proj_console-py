@@ -24,7 +24,10 @@ class abastecer:
         return getattr(self, 'case_'+str(combustivel), lambda:defaut)()
 
     def case_1(self):
-        etanol(opcao)
+        etanol(opcao) 
+        
+    def case_2 (self):
+        gasolina(opcao)
         
 posto=[]
 x=0
